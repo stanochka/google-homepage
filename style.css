@@ -26,7 +26,7 @@ nav {
   align-items: center;
   justify-content: flex-end;
   font-size: 13px;
-  color: #808080 !important;
+  color: #808080;
 }
 
 #signin {
@@ -100,12 +100,25 @@ footer {
   color: #666666;
 }
 
+#searchbar:hover {
+  box-shadow: 2px 2px 8px #CCCCCC;
+}
+
 #searchtext {
   width: 270px;
+  font-size: 14px;
   border: 0;
   background: none;
   box-shadow: none;
   border-radius: 0px;
+}
+
+#searchtext:hover, #searchtext:active, #searchtext:focus {
+  border: 0;
+  background: none;
+  box-shadow: none;
+  border-radius: 0px;
+  outline: none;
 }
 
 #buttons {
@@ -137,4 +150,8 @@ a:hover, a:active {
   cursor: pointer;
   -webkit-appearance: none;
   -moz-appearance: none;
+}
+
+.button:hover {
+  box-shadow: 0 0 0 .6px #808080;
 }
