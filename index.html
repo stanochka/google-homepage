@@ -16,15 +16,17 @@
       <li><a href="#"><span class="material-icons">apps</span></a></li>
       <li><button type="button" id="signin" name='signin'>Sign In</button></li>
     </nav>
-    <img id='mainlogo' src="googlelogo_color_272x92dp.png">
+    <a href="#"><img id='mainlogo' src="googlelogo_color_272x92dp.png"></a>
     <div id='searcharea'>
-      <span class="material-icons">search</span>
-      <input type="text" name="search" value="">
-      <span class="material-icons">keyboard_voice</span>
+      <div id='searchbar'>
+        <span class="material-icons">search</span>
+        <input type="text" id="searchtext" name="search" value="">
+        <a href="#"><span class="material-icons">keyboard_voice</span></a>
+      </div>
     </div>
     <div id='buttons'>
-      <button type="button" name="search">Поиск в Google</button>
-      <button type="button" name="getLucky">Мне повезет!</button>
+      <button type="button" class="button" name="search">Поиск в Google</button>
+      <button type="button" class="button" name="getLucky">Мне повезет!</button>
     </div>
   </div>
     <footer>
