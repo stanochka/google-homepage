@@ -1,27 +1,45 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <title>Google</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
+      rel="stylesheet">
   </head>
   <body>
-    <ul>
+  <div id="page-container">
+  <div id="content-wrap">
+    <nav>
       <li><a href="#">Почта</a></li>
       <li><a href="#">Картинки</a></li>
-      <li><a href="#">ICON</a></li>
-      <li><a href="#">BUTTON SIGN UP</a></li>
-    </ul>
-    <img src="googlelogo_color_272x92dp.png">
-    <textarea name="search" rows="1" cols="80">SEARCH FORM WITH 2 ICONS</textarea>
-    <button type="button" name="search">Поиск в Google</button>
-    <button type="button" name="getLucky">Мне повезет!</button>
+      <li><a href="#"><span class="material-icons">apps</span></a></li>
+      <li><button type="button" id="signin" name='signin'>Sign In</button></li>
+    </nav>
+    <img id='mainlogo' src="googlelogo_color_272x92dp.png">
+    <div id='searcharea'>
+      <span class="material-icons">search</span>
+      <input type="text" name="search" value="">
+      <span class="material-icons">keyboard_voice</span>
+    </div>
+    <div id='buttons'>
+      <button type="button" name="search">Поиск в Google</button>
+      <button type="button" name="getLucky">Мне повезет!</button>
+    </div>
+  </div>
     <footer>
-      <li><a href="#">Всё о Google</a></li>
-      <li><a href="#">Реклама</a></li>
-      <li><a href="#">Для бизнеса</a></li>
-      <li><a href="#">Как работает поиск</a></li>
-      <li><a href="#">Конфиденциальность</a></li>
-      <li><a href="#">Условия</a></li>
-      <li><a href="#">Настройки</a></li>
+      <ul id="footer-left">
+        <li><a href="#">Всё о Google</a></li>
+        <li><a href="#">Реклама</a></li>
+        <li><a href="#">Для бизнеса</a></li>
+        <li><a href="#">Как работает поиск</a></li>
+      </ul>
+      <ul id='footer-right'>
+        <li><a href="#">Конфиденциальность</a></li>
+        <li><a href="#">Условия</a></li>
+        <li><a href="#">Настройки</a></li>
+      </ul>
     </footer>
+  </div>
   </body>
 <html>
