@@ -1,15 +1,14 @@
-#page-container {
-  position: relative;
-  min-height: 100vh;
-  width: 100%;
-}
-
 #content-wrap {
   padding-bottom: 2.3rem;
 }
 
 body {
   font-family: 'Open Sans', sans-serif;
+  min-height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 li {
@@ -33,7 +32,7 @@ nav {
   background-color: #4285F4;
   color: white;
   height: 30px;
-  width: 70px;
+  width: fit-content;
   border-radius: 1px;
   font-size: 14px;
   border: 0;
