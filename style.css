@@ -43,8 +43,6 @@ nav {
   -moz-appearance: none;
 }
 
-
-
 footer {
   position: absolute;
   bottom: 0;
@@ -115,6 +113,7 @@ footer {
 #searchtext:hover, #searchtext:active, #searchtext:focus {
   border: 0;
   background: none;
+  background-color: none;
   box-shadow: none;
   border-radius: 0px;
   outline: none;
